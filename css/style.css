@@ -244,3 +244,30 @@ footer {
 }
 
 }
+
+@media screen and (min-width:1200px) {
+  
+  header .container div i {
+    display: none;
+  }
+
+  header .container div ul {
+    display: inline-block;
+  }
+
+  .tabs {
+    width: calc(100% / 2 - 1vw);
+  }
+
+  .container-tabs {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .benefit {
+    width: calc(100% / 3 - 1vw);
+  }
+}
