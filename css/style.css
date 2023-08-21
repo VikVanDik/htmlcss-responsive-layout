@@ -17,8 +17,26 @@
   flex-wrap: wrap;
 }
 
+.container {
+  width: 90%;
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+
 /* HEADER */
 
 header {
   height: 50px;
+  background-color: blue;
+  position: fixed;
+  width: 100%;
 }
+
+.head {
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* MAIN */
+
