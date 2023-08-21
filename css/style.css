@@ -35,6 +35,10 @@
   background-color: green;
 }
 
+.black {
+  background-color: black;
+}
+
 /* HEADER */
 
 header {
@@ -42,6 +46,11 @@ header {
   background-color: blue;
   position: fixed;
   width: 100%;
+}
+
+ul {
+  display: none;
+  list-style: none;
 }
 
 .head {
@@ -54,6 +63,9 @@ header {
 main {
   padding-top: 80px;
 }
+
+/* SEZIONE TABS */
+
 
 section {
   padding: 20px 0;
@@ -74,6 +86,8 @@ section {
   height: 400px;
 }
 
+/* SEZIONE CARDS */
+
 .testimonial {
   height: 400px;
   border: 1px solid black;
@@ -93,4 +107,56 @@ section {
 
 .caption {
   height: 400px;
+}
+
+/* SEZIONE BENEFITS  */
+
+.benefits {
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.benefit {
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* SEZIONE ABOUT US  */
+
+.about {
+  height: 800px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.guy {
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* SEZIONE GET STARTED  */
+
+.free {
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+/* FOOTER  */
+
+footer {
+  height: 100px;
+  background-color: black;
+}
+
+.foot {
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 50px;
+  margin-top: 40px;
 }
