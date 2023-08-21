@@ -73,3 +73,24 @@ section {
 .iphone {
   height: 400px;
 }
+
+.testimonial {
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.propic {
+  height: 200px;
+}
+
+.caption {
+  height: 400px;
+}
