@@ -61,16 +61,12 @@ body {
   background-color: #9792E4;
 }
 
-.red {
-  background-color: red;
+body {
+  background-color: #333333;
 }
 
-.green {
-  background-color: green;
-}
-
-.black {
-  background-color: black;
+section {
+  background-color: white;
 }
 
 /* HEADER */
@@ -413,23 +409,70 @@ main .container-tab .tab .txt div {
 
 /* SEZIONE GET STARTED  */
 
-.free {
-  height: 500px;
-  border: 1px solid black;
-  border-radius: 20px;
+.free .container {
+  text-align: center;
+  color: white;
+}
+
+.free .container div:first-child {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.free .container h4 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 40px 0;
+}
+
+.free .container h2 {
+  color: #FDC15F;
+  font-size: 5rem;
+  padding-bottom: 40px;
+}
+
+.free .container p {
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+.free .container p:last-child {
+  font-size: 1rem;
+}
+
+.free .container p:last-child a {
+  color: white;
+}
+
+.free .container .btn {
+  padding: 50px 0;
+}
+
+.free .container .btn a {
+  text-decoration: none;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /* FOOTER  */
 
 footer {
-  background-color: var(--black);
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
 }
 
 .foot {
-  border: 1px solid white;
-  border-radius: 20px;
-  height: 50px;
   margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+footer div:last-child {
+  padding-bottom: 50px;
 }
 
 /* MEDIA QUERY  */
