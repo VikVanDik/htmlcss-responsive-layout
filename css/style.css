@@ -307,24 +307,73 @@ main .container-tab .tab .txt div {
   margin: 0 auto;
 }
 
-.caption .cap
+.caption .cap {
+  padding-bottom: 30px;
+}
 
+.caption .name {
+  font-weight: 600;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
 
 
 /* SEZIONE BENEFITS  */
 
 .benefits {
-  height: 200px;
-  border: 1px solid black;
-  border-radius: 20px;
   width: 100%;
 }
 
+.ben .bene .benefits {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
 .benefit {
-  height: 500px;
-  border: 1px solid black;
   border-radius: 20px;
   margin-top: 20px;
+  background-color: white;
+}
+
+.ben .bene .benefit .number {
+  color: #9792E4;
+  font-size: 5rem;
+  padding: 40px;
+}
+
+.ben .bene .benefit h4 {
+  padding-left: 40px;
+  font-size: 2rem;
+  color: #9792E4;
+}
+
+.ben .bene .benefit .exp {
+  padding-left: 40px;
+  font-size: 1.5rem;
+  line-height: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 90%;
+}
+
+.ben .bene .benefit .btn {
+  width: 30%;
+  text-align: center;
+  margin-left: 40px;
+  padding-bottom: 30px;
+}
+
+.ben .bene .benefit .btn a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  line-height: 100%;
+  background-color: #9792E4;
+  padding: 10px 40px;
+  border-radius: 50px
 }
 
 /* SEZIONE ABOUT US  */
@@ -393,15 +442,16 @@ footer {
 }
 
 .propic {
-  width: 20%;
+  min-width: 250px;
   height: auto;
 }
 
 .caption {
-  width: 80%;
+  width: auto;
 }
 
-.ben {
+
+.bene {
   display: flex;
   justify-content: space-between;
 }
