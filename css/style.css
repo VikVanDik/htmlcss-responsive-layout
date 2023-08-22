@@ -378,17 +378,37 @@ main .container-tab .tab .txt div {
 
 /* SEZIONE ABOUT US  */
 
-.about {
-  height: 800px;
-  border: 1px solid black;
-  border-radius: 20px;
+.about h3 {
+  font-size: 3rem;
+  color: #9792E4;
+  padding: 40px 0;
+}
+
+.about div {
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  line-height: 40px;
 }
 
 .guy {
-  height: 300px;
-  border: 1px solid black;
   border-radius: 20px;
   margin-top: 20px;
+}
+
+.guy .help {
+  font-size: 2rem;
+  color: #9792E4;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.guy .btn a {
+  background-color: #9792E4;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
 }
 
 /* SEZIONE GET STARTED  */
