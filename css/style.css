@@ -148,15 +148,56 @@ section {
   border-radius: 30px;
   width: 100%;
   margin-bottom: 20px;
+  background-color: #B5DDFF;
+  text-align: center;
 }
 
-.txt {
-  height: 600px;
+.phone {
+ max-width: 250px;
 }
 
-.iphone {
-  height: 400px;
+main .container-tab .tab-phone .txt {
+  padding-left: 20px;
+  padding-top: 30px;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
 }
+
+main .container-tab .tab-phone .txt h4 {
+  color: #0084FD;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+main .container-tab .tab-phone .txt p {
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+
+main .container-tab .tab-phone .txt div a {
+  background-color: #0084FD;
+  color: white;
+  padding: 20px 60px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+main .container-tab .tab-phone .txt div {
+  padding: 60px 0px;
+}
+
+main .container-tab .tab {
+  text-align: center;
+  background-color: #B5DDFF;
+}
+
+main .container-tab .tab .txt i {
+  font-size: 6rem;
+  color: #0084FD;
+}
+
 
 /* SEZIONE CARDS */
 
@@ -243,6 +284,7 @@ footer {
 
 .tab-phone {
   width: calc(100% - 100% / 3);
+  display: flex;
 }
 
 .tab {
